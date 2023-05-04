@@ -1,10 +1,13 @@
-import axios from "axios";
-import React, { useEffect } from "react";
-import { useQuery } from "react-query";
+import React from "react";
 import "./App.css";
+import NewsContainer from "./components/news-container";
 
 function App() {
-  return <div className="App">Hi</div>;
+  return (
+    <div className="App">
+      <NewsContainer />
+    </div>
+  );
 }
 
 export default App;
